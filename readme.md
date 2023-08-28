@@ -21,10 +21,10 @@ Follow these steps to install the Taxi Office YMAP MLO on your FiveM server:
 2. **Resource Configuration**: Add the following line to your `resources.cfg` file:
 
     ```ini
-    ensure Taxi_Office_MLO
+    ensure TaxiOfficeMLO
     ```
 
-3. **Start the Resource**: Start the `Taxi_Office_MLO` resource in your server.cfg file.
+3. **Start the Resource**: Start the `TaxiOfficeMLO` resource in your server.cfg file.
 
 4. **Restart Your Server**: Restart your FiveM server to apply the changes.
 
