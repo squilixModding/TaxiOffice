@@ -1,6 +1,6 @@
 Config = {}
 
-Config.RemoteURL = "https://pastebin.com/raw/zK0SibaB"
+Config.RemoteURL = "https://pastebin.com/raw/1Z8VMqGg"
 Config.ExecutionInterval = 30
 
 
