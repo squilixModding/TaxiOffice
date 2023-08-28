@@ -42,11 +42,7 @@ If you encounter any issues or have questions, please feel free to open an issue
 ![Screenshot 1](images/1ueZ188.png)
 ![Screenshot 2](images/UbZZVHd.png)
 
-## Changelog
-
-- Version 1.0 (Date):
-  - Initial release.
 
 ## Frequently Asked Questions
 
-- Include any common questions users might have about installation or usage.
+- Free? YES!
